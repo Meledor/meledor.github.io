@@ -3,7 +3,6 @@
 #banner {
     padding: 8em 0 4em 0;
     background-attachment: fixed;
-    background-image: url("images/overlay02.png"), url("../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg");
     background-position: center top;
     background-size: cover;
     line-height: 1.75;
@@ -51,7 +50,6 @@ body.is-touch #banner {
 
     .wrapper.style3 {
         background-attachment: fixed;
-        background-image: url("images/overlay02.png"), url("../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg");
         background-position: center center;
         background-size: cover;
     }
@@ -67,3 +65,11 @@ body.is-touch #banner {
 body.is-touch .wrapper.style3 {
     background-attachment: scroll;
 }
+
+body{color:#000; background:#fff;} 
+.background-blue{background:blue;} 
+.background-red{background:red;} 
+.background-green{background:green;} 
+.color-yellow, .color-yellow a{color:yellow;} 
+.color-white, .color-white a{color:white;} 
+.color-purple, .color-purple a{color:purple} 
