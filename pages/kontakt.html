@@ -9,31 +9,41 @@
         </header>
         <section>
             <p>Bitte Ausfüllen (Funktioniert nur in Chrom)</p>
-            <form id="kontaktForm" onsubmit="return validateForm(this)" novalidate>
-                <div class="row uniform 50%">
+            <div class="container">
+                <form id="contact" onsubmit="return validateForm(this)">
+                    <h3>Quick Contact</h3>
+                    <h4>Contact us today, and get reply with in 24 hours!</h4>
                     <div class="6u 12u$(xsmall)">
-                        <input type="text" name="name" id="name" placeholder="Vor- und Nachname" required />
+                        <fieldset >
+                            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                        </fieldset>
                     </div>
-                    <div class="6u$ 12u$(xsmall)">
-                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    <div class="6u 12u$(xsmall)">
+                        <fieldset class="6u 12u$(xsmall)">
+                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </fieldset>
                     </div>
+                    <div>
+                        <fieldset class="6u 12u$(xsmall)">
+                            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                        </fieldset>
                     </div>
-                <div class="6u 12u$(small)">
-                    <input type="checkbox" id="copy" name="copy">
-                    <label for="copy">Eine Kopie meiner Angaben senden.</label>
-                </div>
-                <div class="12u$">
-                    <textarea name="message" id="message" placeholder="Text Eingeben" rows="6" required></textarea>
-                </div>
+                    <div>
+                        <fieldset class="6u 12u$(xsmall)">
+                            <textarea placeholder="Type your Message Here...." tabindex="5" rows="6" required></textarea>
+                        </fieldset>
+                    </div>
                     <div class="12u$">
                         <ul class="actions">
                             <li>
-                                <input type="submit" value="Send Message"/>
+                                <fieldset class="actions">
+                                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                                </fieldset>
                             </li>
                         </ul>
                     </div>
-           
-            </form>
+                </form>
+            </div>
         </section>
     </div>
 </section>
