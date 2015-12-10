@@ -1,0 +1,39 @@
+﻿<section id="banner">
+    <h2>Kontakt</h2>
+</section>
+
+<section id="main" class="wrapper">
+    <div class="container">
+        <header >
+            <h2>Kontakt</h2>
+        </header>
+        <section>
+            <p>Bitte Ausfüllen (Funktioniert nur in Chrom)</p>
+            <form id="kontaktForm" onsubmit="return validateForm(this)" novalidate>
+                <div class="row uniform 50%">
+                    <div class="6u 12u$(xsmall)">
+                        <input type="text" name="name" id="name" placeholder="Vor- und Nachname" required />
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <input type="email" name="email" id="email" placeholder="Email" required />
+                    </div>
+                    </div>
+                <div class="6u 12u$(small)">
+                    <input type="checkbox" id="copy" name="copy">
+                    <label for="copy">Eine Kopie meiner Angaben senden.</label>
+                </div>
+                <div class="12u$">
+                    <textarea name="message" id="message" placeholder="Text Eingeben" rows="6" required></textarea>
+                </div>
+                    <div class="12u$">
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Send Message"/>
+                            </li>
+                        </ul>
+                    </div>
+           
+            </form>
+        </section>
+    </div>
+</section>

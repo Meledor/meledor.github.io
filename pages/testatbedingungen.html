@@ -1,0 +1,27 @@
+﻿<script src="js/drawSomething.js"></script>
+<link rel="stylesheet" href="canvasAnimation.css" />
+
+<section id="banner">
+    <h2>Testatbedingungen</h2>
+</section>
+
+<section id="main" class="wrapper">
+    <div class="container">
+        <h2>Canvas Example</h2>
+        <p>Bewegen Sie die Maus und klicken Sie oberhalb der Button um zu Zeichnen.</p>
+        <canvas id="canvas" class="canvas"></canvas>
+        <ul>
+            <li> <input type="range" id="marker" max="10" min="1" value-"1"></li>
+            <li><button class="button" id="clear">Clear Scetchbook</button></li>
+        </ul>
+    </div>
+    <p></p>
+    <div class="container">
+        <h2>Style Switcher</h2>
+        <p>Wählen Sie einen Style aus.</p>
+        <ul>
+            <li><a href="javascript:;" onclick=”setActiveStyleSheet(‘defaultSheet’); return false;”>Standart</a></li>
+            <li><a href="javascript:;" onclick=”setActiveStyleSheet(‘alternate’); return false;”>Alternativ</a></li>
+        </ul>
+    </div>
+</section>

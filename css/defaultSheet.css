@@ -1,0 +1,69 @@
+﻿/* Banner */
+
+#banner {
+    padding: 8em 0 4em 0;
+    background-attachment: fixed;
+    background-image: url("images/overlay02.png"), url("../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg");
+    background-position: center top;
+    background-size: cover;
+    line-height: 1.75;
+    text-align: center;
+}
+
+    #banner :last-child {
+        margin-bottom: 0;
+    }
+
+    #banner h2 {
+        color: #ffffff;
+        display: inline-block;
+        font-size: 3.5em;
+        line-height: 1.35;
+        margin-bottom: 0.5em;
+    }
+
+    #banner p {
+        color: #aaa;
+        font-size: 1.5em;
+        margin-bottom: 1.75em;
+        text-transform: uppercase;
+    }
+
+body.is-touch #banner {
+    background-attachment: scroll;
+}
+
+/* Main */
+
+#main {
+    padding-top: 4em;
+}
+
+/* Wrapper */
+
+.wrapper {
+    padding: 6em 0 4em 0;
+}
+
+    .wrapper.style2 {
+        background-color: #f6f6f6;
+    }
+
+    .wrapper.style3 {
+        background-attachment: fixed;
+        background-image: url("images/overlay02.png"), url("../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+
+        .wrapper.style3 header.major {
+            margin-bottom: 3em;
+        }
+
+            .wrapper.style3 header.major h2 {
+                color: #ffffff;
+            }
+
+body.is-touch .wrapper.style3 {
+    background-attachment: scroll;
+}
